@@ -1,0 +1,29 @@
+<h3>Jobs Published By Me</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let job of jobs" class="col-1-4"
+      routerLink="/job/detail/{{job.id}}">
+    <div class="module hero">
+      <h4>{{job.title}}</h4>
+    </div>
+  </a>
+</div>
+<h3>Jobs Applied</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let job of jobs" class="col-1-4"
+      routerLink="/job/detail/{{job.id}}">
+    <div class="module hero">
+      <h4>{{job.title}}</h4>
+    </div>
+  </a>
+</div>
+<h3>Jobs Accomplished</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let job of jobs" class="col-1-4"
+      routerLink="/job/detail/{{job.id}}">
+    <div class="module hero">
+      <h4>{{job.title}}</h4>
+    </div>
+  </a>
+</div>
+<h3>Awards</h3>
+<!-- <app-hero-search></app-hero-search> -->

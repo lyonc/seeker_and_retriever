@@ -1,0 +1,18 @@
+<h2>Jobs</h2>
+
+<div>
+    <label>Job name:
+      <input #jobName />
+    </label>
+    <button (click)="add(jobName.value); jobName.value=''">add</button>
+</div>
+
+<ul class="jobs">
+  <li *ngFor="let job of jobs">
+    <a routerLink="/detail/{{job.id}}">
+      <span class="badge">{{job.id}}</span> {{job.title}}
+    </a>
+    <button class="delete" title="delete job"
+      (click)="delete(job)">X</button>
+  </li>
+</ul>
