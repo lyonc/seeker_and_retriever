@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace youhuo_api_mock.Controllers
+namespace Clsmap.SeekerAndRetriever.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller

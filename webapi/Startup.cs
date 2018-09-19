@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace youhuo_api_mock
+namespace Clsmap.SeekerAndRetriever
 {
     public class Startup
     {

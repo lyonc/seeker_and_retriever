@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace youhuo_api_mock
+namespace Clsmap.SeekerAndRetriever
 {
     public class Program
     {
