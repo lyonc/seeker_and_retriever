@@ -14,27 +14,27 @@
             <ul class='nav navbar-nav'>
                 <li [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
                     <a [routerLink]='["/"]' (click)='collapse()'>
-                        <span class='glyphicon glyphicon-home'></span> Home
+                        <span class='fa fa-home'></span> Home
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
                     <a [routerLink]='["/dashboard"]' (click)='collapse()'>
-                        <span class='glyphicon glyphicon-user'></span> Dashboard
+                        <span class='fa fa-th'></span> Dashboard
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
                     <a [routerLink]='["/chat"]' (click)='collapse()'>
-                        <span class='glyphicon glyphicon-comment'></span> Messages
+                        <span class='fa fa-comments'></span> Messages
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
                     <a [routerLink]='["/about"]' (click)='collapse()'>
-                        <span class='glyphicon glyphicon-cog'></span> Settings
+                        <span class='fa fa-cogs'></span> Settings
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
                     <a [routerLink]='["/lab"]' (click)='collapse()'>
-                        <span class='glyphicon glyphicon-ice-lolly-tasted'></span> Lab (Only for Development)
+                        <span class='fa fa-snowflake-o'></span> Lab (Only for Development)
                     </a>
                 </li>
             </ul>

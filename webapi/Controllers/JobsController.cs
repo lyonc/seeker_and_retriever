@@ -1,11 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
 namespace Clsmap.SeekerAndRetriever.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Mvc;
+
+    using Models;
+
     [Route("api/[controller]")]
     public class JobsController : Controller
     {
@@ -34,15 +36,6 @@ namespace Clsmap.SeekerAndRetriever.Controllers
         {
             var rng = new Random();
             return Enumerable.Range(1, 4).Select(index => Jobs[index]);
-        }
-
-        public class Job
-        {
-            public int Id { get; set; }
-
-            public string Title { get; set; }
-
-            public string Description { get; set; }
         }
     }
 }
